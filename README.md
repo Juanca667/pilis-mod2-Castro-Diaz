@@ -47,7 +47,8 @@ La temáticas pueden ser (elegir solo una):
 - Expo Juy
 - Expo Vinícola
 ***
-### Tematica elegida: Feria de las plantas.
+### Tematica elegida: 
+Feria de las plantas.
 ### Integrantes del grupo: 
 * Juan Manuel Castro
 * Mariano Maximiliano Diaz
