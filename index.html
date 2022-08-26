@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
   <title>Feria de las plantas</title>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body onload="onLoad()">
@@ -14,11 +15,11 @@
     <nav id="navbar">
       <div class="container">
         <div class="logo">
-          <img src="assets/Feria De Las Plantas lg.png" alt="Logotipo">
+          <a href="#nosotros"><img src="assets/Feria De Las Plantas lg.png" alt="Logotipo"></a>
         </div>
         <ul>
           <li><a href="#event">Eventos</a></li>
-          <li><a href="#contact">Nosotros</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="#registro">Registro</a></li>
         </ul>
       </div>
@@ -26,19 +27,16 @@
     <div id="showcase" class="home">
       <div class="container">
         <div class="showcase-img">
-          <img src="https://i.ibb.co/Yc13gjV/showcase.png" alt="showcase" />
+          <img src="https://scontent.fjuj3-1.fna.fbcdn.net/v/t39.30808-6/242322366_2851447335168229_2137146772901906776_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=JlRARTbFl8QAX93oX3E&_nc_ht=scontent.fjuj3-1.fna&oh=00_AT_pNDGaMkefuHmYsCnoTV5h8Qmv078XAL4TwViZRtSyZQ&oe=630C63BD" alt="showcase" />
         </div>
 
         <div class="showcase-text">
-          <h1><span class="title-one">Proyectos</span><br>
-            <span class="title-two">Desarrollo</span><br>
-            Direccion<br>planificacion<br>control
+          <h1><span class="title-one">asociación de</span><br>
+            <span class="title-two">productores de</span><br>
+            plantas<br>ornamentales<br>de jujuy
           </h1>
-          <h1><span class="title-one">Titulo</span><br>
-          </h1>
-          <h2><span>Subtitulo</span></h2>
-          <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
-            venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim.</p>
+          <h1><span class="appojuy">APPOJUY</span><br>
+          </h1>         
         </div>
       </div>
     </div>
@@ -54,18 +52,17 @@
             allowfullscreen></iframe>
         </div>
         <div class="event-description">
-          <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus sed facilisi ultrices
-            tincidunt
-            sed turpis et dictumst justo. Tempor venenatis magnis consequat, accumsan. Aliquet elit velit fringilla
-            nulla
-            nam. Dui purus quisque a dictumst odio molestie. Vitae nullam quis odio etiam varius. Vivamus et nibh
-            aliquet
-            auctor vivamus maecenas velit et pretium. Ultrices tempor dapibus massa nunc amet dignissim mauris.
-            Scelerisque congue mauris, et ornare nibh quis.</p>
+          <p class="large">
+            En la jornada pasada, se abrió una nueva edición de la exposición de plantas y flores ornamentales «La Flor más Bella», en esta ocasión participan casi medio centenar de productores locales.
+  
+  </p>
+            <p>Desde la organización explicaron que este año habrá talleres de capacitación, espacios para yoga, zumba, colecciones privadas que se podrán apreciar, plantas exóticas, espacios de diseño, arreglos ornamentales bastantes modernos.
+  
+              Los interesados en participar, podran registrarse mediante el formulario que se encuentra en esta pagina.</p>
         </div>
       </div>
     </section>
-    <section id="contact">
+    <section id="nosotros">
       <div class="container">
         <div id="showcase">
           <div class="container">
@@ -76,8 +73,8 @@
             <div class="showcase-text">
               <h1><span class="title-one">Feria de las plantas</span><br>
               </h1>
-              <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
-                venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim.</p>
+              <p class="large"> 
+                La Asociación de Productores de Plantas Ornamentales de Jujuy (APPOJUY) está compuesta por 50 familias jujeñas que trabajan mancomunadamente para el desarrollo de la Industria Florícola.</p>
             </div>
           </div>
         </div>
@@ -90,27 +87,27 @@
           <h2>registro</h2>
         </div>
         <div class="contact-form">
-          <h1><span class="title-one">Sumate el evento para potenciar el comercio</span></h1>
+          <h1><span class="title-one">Sumate el evento para potenciar el comercio:</span></h1>
           <div>
             <h3>Formulario de contacto</h3>
             <form id="formulario">
               <div class="form-group">
-                <label for="name">Comercio:</label>
+                <label for="comercio">Comercio:</label>
                 <input type="text" id="comercio" class="form-control" placeholder="Nombre Comercio.">
               </div>
               <div class="form-group">
-                <label for="name">Titular:</label>
+                <label for="titular">Titular:</label>
                 <input type="text" id="titular" class="form-control" placeholder="¿Quien es el titular?">
               </div>
               <div class="form-group">
-                <label for="name">Email:</label>
-                <input type="text" id="email" class="form-control" placeholder="Ingrese su correo">
+                <label for="email">Email:</label>
+                <input type="text" id="email" class="form-control" placeholder="Ingrese su correo.">
               </div>
               <div class="form-group">
-                <label for="name">Celular:</label>
+                <label for="celular">Celular:</label>
                 <input type="number" id="celular" class="form-control" placeholder="Ingrese número de celular.">
               </div>
-              <button class="btn btn-light">Enviar</button>
+              <button id="enviar" class="btn btn-light">Enviar</button>
             </form>
           </div>
         </div>
@@ -163,7 +160,8 @@
       </div>
     </div>
   </footer>
-  <script src="js/clima.js"></script>
+
+  <script src="js/clima&form.js"></script>
 </body>
 
 </html>
