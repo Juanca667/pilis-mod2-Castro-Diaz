@@ -54,7 +54,10 @@ Feria de las plantas.
 * Mariano Maximiliano Diaz
 ### Paleta de colores: 
  <img src="https://user-images.githubusercontent.com/107594252/186970167-c109110a-8c08-48e5-992e-f6acb263662d.png" alt="drawing" width="100"/>
+ 
+### Logotipo:
 
+![Feria De Las Plantas (100 × 100 px) (1)](https://user-images.githubusercontent.com/107594252/186978743-9d45d24a-702b-41cb-a440-a1adb4e43e01.png)
 
 
 
