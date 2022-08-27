@@ -56,18 +56,39 @@ a {
   border-radius: 5px;
 }
 
-/* Showcase */
+/*Nosotros*/
 
-.home {
-  margin-top: 150px;
- 
- 
+#nosotros{
+  border: 5px solid #B1D7B4;
+
 }
 
+.event-title {
+  float: left;
+  width: 45%;
+  padding-top: 8%;
+}
+
+.event-description {
+  float: left;
+  width: 55%;
+}
+
+.event-description .large {
+  padding-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+/* evento */
+
+#evento{
+  border: 5px solid #B1D7B4;
+}
 
 .showcase-img {
   float: right;
   width: 50%;
+  padding: 80px 20px 20px 20px;
 }
 
 .showcase-img img {
@@ -77,7 +98,7 @@ a {
 .showcase-text {
   float: left;
   width: 50%;
-  padding: 20px 20px 20px 40px;
+  padding: 20px 20px 20px 20px;
 }
 
 
@@ -88,13 +109,19 @@ h1 {
 }
 
 .showcase-text .title-one {
-  color: #FFC090;
+  color: #F7F6DC;
   font-weight: 400;
 }
 
 .showcase-text .title-two {
   color: #841934;
   font-weight: 300;
+}
+
+.showcase-text .title-three {
+  color: #F7F6DC;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 .showcase-text .large {
@@ -110,28 +137,6 @@ header {
   max-width: 1300px;
   overflow: auto;
   padding: 0 10px;
-}
-
-/* Event */
-#event {
-  background: #7FB77E;
-  padding: 100px 0;
-}
-
-.event-title {
-  float: left;
-  width: 45%;
-  padding-top: 340px;
-}
-
-.event-description {
-  float: left;
-  width: 55%;
-}
-
-.event-description .large {
-  padding-bottom: 10px;
-  font-size: 1.25rem;
 }
 
 /* General */
@@ -173,7 +178,13 @@ p {
   color: #7FB77E;
 }
 
-/* Contact */
+/* Registro */
+
+#registro{
+  border: 5px solid #B1D7B4;
+}
+
+/* Registro */
 
 #contact {
   padding: 120px 0;
@@ -182,13 +193,13 @@ p {
 .contact-form {
   float: right;
   width: 45%;
-  padding: 20px;
+  padding: 10px 50px 20px 0px;
 }
 
 .contact-title {
   float: left;
-  width: 55%;
-  padding-top: 160px;
+  width: 45%;
+  padding-top: 20%;
   text-align: center;
 }
 
@@ -343,19 +354,23 @@ body {
 
 .contaier {
   background-color: #DDC9B4;
-  padding: 5px;
+  margin: 0 auto;
+  padding: 20px;
   color: #2A3D45;
 }
 
 .contaier>.block {
   padding: 10px;
-  margin-left: 50px;
+  margin-right: 50px;
+  float: right;
+  background-color: #7FB77E;
 }
 
 .contaier>.blockdate {
   padding: 10px;
-  margin-right: 50px;
-  float: right;
+  margin-left: 50px;
+  float: left;
+  background-color: #7FB77E;
 }
 
 .block:first-child {
@@ -383,4 +398,11 @@ h6 {
 
 .textdesc {
   text-transform: uppercase;
+}
+
+#mapa iframe {
+  display: block;
+  width: 30%;
+  height: 25%;
+  margin: 0 auto;
 }
